@@ -1,0 +1,29 @@
+.projects-section{
+    margin-top: 2em;
+}
+.card:hover{
+    box-shadow: 0 10 20 lightgray;
+}
+
+.card{
+    margin: 15px 0;
+}
+
+.card > img{
+    height: 150px;
+}
+.btn{
+    width: 100%;
+    color:#89216B;
+    background: aliceblue;
+    border: 1px solid #89216B;
+    font-size: 18px;
+    margin: 5px 0;
+    transition: .25s;
+}
+
+.btn:hover{
+    background: linear-gradient(to right, #89216B, #DA4453) !important;
+    color: white !important;
+    border: 1px solid transparent;
+}

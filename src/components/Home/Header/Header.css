@@ -1,0 +1,16 @@
+.home{
+    background: linear-gradient(to right, #243B55, #141E30);
+    min-height: 100vh;
+}
+
+.tsparticles-canvas-el{
+    position: absolute;
+}
+
+.header-img{
+    width: 400px;
+}
+canvas{
+    min-height: 80vh !important;
+    min-width: 98% !important;
+}
