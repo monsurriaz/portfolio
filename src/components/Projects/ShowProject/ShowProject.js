@@ -79,7 +79,7 @@ const ShowProject = () => {
                 <div class="card">
                         <img src={emma} class="card-img-top" alt="agency" />
                         <div class="card-body">
-                            <h5 class="card-title">Creative Agency</h5>
+                            <h5 class="card-title">Ema-john E-commerce</h5>
                             <p className="mb-3"><strong>Overview:</strong></p>
                             <ul class="card-text">
                                 <li>
@@ -120,9 +120,9 @@ const ShowProject = () => {
                             </p>
                             <p className="card-text"><strong>Technologies:</strong></p>
                             <span>React, </span>
-                            <span>NodeJs, </span>
-                            <span>ExpressJS, </span>
-                            <span>MongoDB</span>
+                            <span>Bootstrap, </span>
+                            <span>HTML, </span>
+                            <span>CSS</span>
                         </div>
                         <div className="card-footer">
                             <a href="https://travel-master1.web.app/" class="btn" target="blank">Website</a>
@@ -142,9 +142,9 @@ const ShowProject = () => {
                                 This is a simple static eCommence Website. 
                             </p>
                             <p className="card-text"><strong>Technologies:</strong></p>
-                            <span>HTML </span>
-                            <span>CSS </span>
-                            <span>Bootstrap </span>
+                            <span>HTML, </span>
+                            <span>CSS, </span>
+                            <span>Bootstrap, </span>
                         </div>
                         <div className="card-footer">
                             <a href="https://monsurriaz.github.io/hot-gadgets/" class="btn" target="blank">Website</a>
@@ -164,8 +164,8 @@ const ShowProject = () => {
                                 This is a simple static E-School learning Website
                             </p>
                             <p className="card-text"><strong>Technologies:</strong></p>
-                            <span>HTML </span>
-                            <span>CSS </span>
+                            <span>HTML, </span>
+                            <span>CSS, </span>
                             <span>Bootstrap </span>
                         </div>
                         <div className="card-footer">

@@ -10,10 +10,10 @@ const ShowAbout = () => {
             <div className="col-12 col-md-5 d-flex flex-column align-items-center">
             <h3 className="mb-4">About</h3>
             <img className="about-img" src={riaz} alt=""/>
-            <div>
-                <a href="https://www.linkedin.com/in/monsurriaz/"><FontAwesomeIcon className="brand-link" icon={faLinkedin} /></a>
-                <a href="https://github.com/monsurriaz"><FontAwesomeIcon className="brand-link" icon={faGithub} /></a>
-                <a href="https://facebook.com/monsur.riaz"><FontAwesomeIcon className="brand-link" icon={faFacebook} /></a>
+            <div className="social-link">
+                <a target="blank" href="https://www.linkedin.com/in/monsurriaz/"><FontAwesomeIcon className="brand-link" icon={faLinkedin} /></a>
+                <a target="blank" href="https://github.com/monsurriaz"><FontAwesomeIcon className="brand-link" icon={faGithub} /></a>
+                <a target="blank" href="https://facebook.com/monsur.riaz"><FontAwesomeIcon className="brand-link" icon={faFacebook} /></a>
             </div>
             <h4 className="text-center text-dark">
                 I am a MERN Stack developer with industry experience building websites and web applications.

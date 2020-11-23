@@ -4,7 +4,7 @@ import ContactDetail from '../ContactDetail/ContactDetail';
 
 const Contact = () => {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid bg-all">
             <Navbar />
             <ContactDetail />
         </div>

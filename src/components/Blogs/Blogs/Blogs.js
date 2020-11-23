@@ -4,7 +4,7 @@ import ShowBlogs from '../ShowBlogs/ShowBlogs';
 
 const Blogs = () => {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid bg-all">
             <Navbar></Navbar>
             <ShowBlogs />
         </div>

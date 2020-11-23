@@ -1,9 +1,9 @@
 import React from 'react';
 import Navbar from '../../Shared/Navbar/Navbar';
 import './Header.css';
-import Particles from 'react-particles-js';
-import riaz from '../../../images/riaz.jpg';
+import riaz from '../../../images/mrriaz.png';
 import Typist from 'react-typist';
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -12,66 +12,16 @@ const Header = () => {
             <div className="sticky-top">
             <Navbar></Navbar>
             </div>
-            <Particles
-                params={{
-                    "particles": {
-                        "number": {
-                            "value": 160,
-                            "density": {
-                                "enable": false
-                            }
-                        },
-                        "size": {
-                            "value": 3,
-                            "random": true,
-                            "anim": {
-                                "speed": 4,
-                                "size_min": 0.3
-                            }
-                        },
-                        "line_linked": {
-                            "enable": false
-                        },
-                        "move": {
-                            "random": true,
-                            "speed": 1,
-                            "direction": "top",
-                            "out_mode": "out"
-                        }
-                    },
-                    "interactivity": {
-                        "events": {
-                            "onhover": {
-                                "enable": true,
-                                "mode": "bubble"
-                            },
-                            "onclick": {
-                                "enable": true,
-                                "mode": "repulse"
-                            }
-                        },
-                        "modes": {
-                            "bubble": {
-                                "distance": 250,
-                                "duration": 2,
-                                "size": 0,
-                                "opacity": 0
-                            },
-                            "repulse": {
-                                "distance": 400,
-                                "duration": 4
-                            }
-                        }
-                    }
-                }} />
-                <div className="row align-otems-center">
-                    <div className="col-md-6">
-                        <h1>Hi I'am Riaz</h1>
+                <div className="row align-otems-center container mx-auto">
+                    <div className="col-md-6 names">
+                        <h1 className="text-white">Hi I'am Riaz</h1>
                         <Typist className='typist' cursor={{'hideWhenDone': true, 'hideWhenDoneDelay': 0}}>
-                            <span>Engineer | Web Deveolpe</span>
+                            <span className="typist">Engineer | Web Deveolpe</span>
                             <Typist.Backspace count={6} delay={1000} />
-                            <span>veloper | Programmer</span>
+                            <span className="typist">veloper | Programmer</span>
                         </Typist>
+                        <button className="bg-transparent border-0 mt-3 pl-0"><Link className="btn px-4" to="/contact">Contact</Link></button>
+                        <button className="bg-transparent border-0 mt-3"><a className="btn px-3" href="https://drive.google.com/u/6/uc?id=1Q7qjwPt6ec9gTh6pTdVnyJjcmp4F1ZuZ&export=download" target="blank">Download Resume</a></button>
                     </div>
                     <div className="col-md-6">
                         <img className="header-img" src={riaz} alt=""/>

@@ -1,3 +1,20 @@
 /* .nav-link:hover{
     border-bottom: 2px solid red;
 } */
+
+.nav-manual{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.nav-link .nav-manual:hover{
+    color: 0, 0, 0, .7 !important;
+}
+
+.brand-logo{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 20px;
+    color: #89216B !important;
+}

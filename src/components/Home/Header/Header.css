@@ -3,14 +3,16 @@
     min-height: 100vh;
 }
 
-.tsparticles-canvas-el{
-    position: absolute;
+.names{
+    margin-top: 140px;
 }
 
 .header-img{
-    width: 400px;
+    margin-top: 70px;
+    width: 500px;
 }
-canvas{
-    min-height: 80vh !important;
-    min-width: 98% !important;
+
+.typist{
+    color: white;
+    font-size: 24px;
 }
